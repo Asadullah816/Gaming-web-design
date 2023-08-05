@@ -1,0 +1,176 @@
+
+.shop-hs{
+    padding: 130px;
+}
+.shop-hero-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.shop-hero-heading h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+.shop-hero-heading span a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.shop-hero-heading span{
+    padding-top: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+
+/* =============================== SHOP TABS ==================== */
+[data-tab-content]{
+    display: none;
+}
+.active-tab[data-tab-content]{
+    display: block;
+}
+
+.tab-targets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+.tab-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.tab-li{
+    list-style: none;
+    margin: 0px 15px;
+    padding: 7px 15px;
+    cursor: pointer;
+    background-color:#eee ;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .3s;
+    margin-bottom: 20px;
+    
+}
+.active-li{
+    color: white;
+    background-color: #ee626b;
+    transition: .3s;
+}
+.tab-li:hover{
+    color: #ee626b;
+}
+.active-li:hover{
+    color: #eee;
+    background-color: #ff9097;
+}
+.trend-card{
+    margin-bottom: 50px;
+}
+.trend-card-an {
+    animation: trend-card .5s linear 1 alternate;
+    
+}
+
+@keyframes trend-card {
+    from {
+        transform: translateY(100px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+.pagination-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.page-link{
+    background-color: #eee;
+    border-radius: 100px;
+    color: black;
+    font-weight: 600;
+    padding: 10.1px 19.2px;
+    transition: .3s;
+}
+.page-item{
+    padding:0px 10px;
+}
+
+.page-link:hover{
+    background-color: #0071f8;
+    color: white;
+}
+
+.page-item:last-child .page-link{
+    padding: 11.4px 19.2px;
+    border-radius: 100px;
+}
+.page-item:first-child .page-link{
+    padding: 11.4px 19.2px;
+    border-radius: 100px;
+}
+.page-link {
+    background-color: #eee;
+    border-radius: 100px;
+    color: black;
+    font-weight: 600;
+    padding: 10.1px 17.3px;
+    transition: .3s;
+}
+.page-link {
+    background-color: #eee;
+    border-radius: 100px;
+    color: black;
+    font-weight: 600;
+    padding: 10.1px 17.5px;
+    transition: .3s;
+}
+.page-link {
+    background-color: #eee;
+    border-radius: 100px;
+    color: black;
+    font-weight: 600;
+    padding: 10.1px 19.2px;
+    transition: .3s;
+}
+
+
+
+@media(max-width:425px){
+    .shop-hs {
+        padding: 100px 70px;
+    }
+    .tab-ul{
+        padding: 0px;
+    }
+    .tab-li{
+        margin: 0px 3px;
+        font-size: 13px;
+    }
+    .trend-card{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:375px){
+    .tab-ul{
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .tab-li{
+        padding: 7px 10px;
+        margin-bottom: 10px;
+    }.shop-hs{
+        padding: 100px 10px;
+    }
+}

@@ -1,0 +1,247 @@
+*{
+    /* border: 1px solid red; */
+
+}
+
+.pro-hs{
+    padding: 130px;
+}
+.pro-hero-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.pro-hero-heading h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+}
+.pro-hero-heading span a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.pro-hero-heading span{
+    padding-top: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.game-area{
+    padding: 120px 0px;
+    border-bottom: 1px 
+    solid rgba(0, 0, 0, 0.075);
+}
+.g-heading h2{
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 27px;
+}
+.span-1{
+    font-weight: 700;
+    text-decoration: line-through;
+    color: rgb(187, 187, 187);
+    padding-right: 10px;
+}
+.span-2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #0071f8;
+}
+.g-text p{
+    font-size: 14px;
+}
+.game-content p{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.game-input form input{
+    padding: 10px 20px;
+    width: 80px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    margin-right: 20px;
+    text-align: center;
+}
+.game-input form button{
+    padding: 15px 30px;
+    background-color: #ee626b;
+    border-radius: 50px;
+    border: 1px solid #e7e7e7;
+    color: white;
+    transition: .3s;
+}
+.s-bag{
+    margin-right: 10px;
+}
+.game-input form button:hover{
+    background-color:rgb(48, 73, 255) ;
+}
+.g-games p{
+    margin: 20px !important;
+}
+.games-detail-col{
+    margin-top: 50px;
+}
+.g-names ul{
+    padding: 0px;
+}
+.g-names ul li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.g-detail ul{
+    padding: 0px;
+}
+.g-detail ul li{
+    list-style: none;
+    padding-bottom: 20px;
+    color: #0071f8;
+}
+.game-para{
+    margin-top: 120px;
+    padding:60px ;
+    background-color: #f7f7f7;
+    border-radius: 25px;
+}
+.g-tabs ul{
+    display: flex;
+    padding: 0px;
+}
+.g-tabs ul li{
+    list-style: none;
+   
+}
+.g-li1{
+    color: #0071f8;
+    font-size: 20px;
+    font-weight: 600;
+    border-right: 1px solid rgba(0, 0, 0, 0.242);
+    padding-right: 25px;
+}
+.g-li2{
+    
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 25px;
+}
+.related-games{
+    margin-top: 120px;
+}
+.pad-top{
+    margin-top: 120px;
+}
+@media(max-width:1024px){
+    .game-img{
+        margin-right: 80px;
+    }
+    .game-img img{
+        width: 100%;
+    }
+    .game-content{
+        /* margin-top: 50px; */
+    }
+    .mp-header{
+        display: block;
+        text-align: start;
+    }
+}
+@media(max-width:768px){
+    .col-md-12{
+        padding: 0px;
+    }
+    .pro-hs{
+        padding: 130px 40px;
+    }
+    .game-img{
+        margin-right: 0px;
+        
+    }
+    .game-img img{
+        width: 100%;
+    }
+    .game-content{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:425px){
+    .pro-hs{
+        padding: 100px 10px;
+    }
+    .game-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .game-img img{
+        width: 100%;
+        padding: 10px;
+    }
+    .game-content{
+        padding: 40px 10px;
+    }
+    .game-para{
+        padding: 50px;
+        margin-top: 100px;
+    }
+    .game-area{
+        /* padding: 120px 10px 50px 10px; */
+    }
+    .game-content{
+        padding: 40px 10px 20px 10px;
+    }
+
+}
+@media(max-width:375px)
+{
+    .g-li2{
+        padding-left: 5px;
+    }
+    .game-img img{
+        padding: 10px;
+    }
+}
+
+
+
+
+@media(max-width:320px){
+    .game-para{
+        padding: 0px;
+    }
+    .pro-hero-heading span{
+        
+       
+        
+    }
+    .col-md-12{
+        padding: 0px;
+
+    }
+    .row {
+        --bs-gutter-x: 0.3rem;
+    }
+    .g-heading h2{
+        padding-top: 20px;
+    }
+    .game-content{
+        margin-top: 0px;
+    }
+    .mp-text{
+        text-align: start;
+    }
+    .game-img img{
+        padding: 0px;
+    }
+}
